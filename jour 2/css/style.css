@@ -1,9 +1,51 @@
-#searchbar{
-    position:relative; width:1040px; height:auto;}
-
-    .formulaire               
+header
 {
-    display:inline-block;
+    display:flex;
+    justify-content: flex-end;
+
+    height:5%;
+    margin: 0%;
+}
+
+body
+{
+    margin: 0%;
+    min-height: :100%;
+}
+.item
+{   
+padding:16px;
+display:inline-block;
+text-decoration: none;
+color:black;
+}
+.connexion
+{
+        text-decoration: none;
+        margin:15px;
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        background: green;
+
+
+}
+.google 
+{
+    
+    margin: 0%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+
+    height: 90%;
+    align-items:center;
+ }
+
+#searchbar{
+    margin:20px;
+    height:auto;
+    align-items: center;
 }
 
 .formulaire .text       
@@ -11,9 +53,54 @@
     width:400px; height:35px;
     border-radius:30px;
 }
+input.text{
+    background:#fff url(/image/loupe.jpg) center left no-repeat;
+}
+.text
+{
+    background: url(/image/loupe.jpg) no-repeat;
+    padding-left:40px;
+}
+#logo
+    {
+       margin:10px;
+        width: 282;
+        height: 110;
+        justify-content: center;
+    }
+.bouton
+{
+   margin-right:10px;
+   margin-left:10px;
+    font-size: 18px;
+    text-decoration: none;
+    height: 35px;
+    border-radius: 3px;
+}
 
-.google {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
- }
+footer
+{
+    margin: 0%;
+    height:3%;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color:rgb(240, 240, 240);
+    vertical-align:bottom;
+
+
+}
+.ft 
+{
+    display:flex;
+    justify-content: flex-end;
+    text-decoration:none;
+    color:#666;
+}
+#link
+{
+    display:inline-block;
+    color:white;
+    font-size:12px;
+    text-decoration: none;
+}
