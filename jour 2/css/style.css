@@ -1,0 +1,19 @@
+#searchbar{
+    position:relative; width:1040px; height:auto;}
+
+    .formulaire               
+{
+    display:inline-block;
+}
+
+.formulaire .text       
+{
+    width:400px; height:35px;
+    border-radius:30px;
+}
+
+.google {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+ }
